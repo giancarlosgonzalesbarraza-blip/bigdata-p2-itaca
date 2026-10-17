@@ -9,7 +9,7 @@ El objetivo es tratar con una base diferente a la anterior y lograr un dashboard
 
 ```mermaid
 graph LR
-    A[Fuente de datos (tablas)] --> B[Ingesta desde PSQL]
+    A[Fuente de datos tablas] --> B[Ingesta desde PSQL]
     B --> C[Almacenamiento en Data Lake]
     C --> D[Procesamiento con Spark]
     D --> E[Visualización / modelo (Power BI)]
