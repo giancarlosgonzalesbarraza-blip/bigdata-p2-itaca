@@ -12,4 +12,4 @@ graph LR
     A[Fuente de datos tablas] --> B[Ingesta desde PSQL]
     B --> C[Almacenamiento en Data Lake]
     C --> D[Procesamiento con Spark]
-    D --> E[Visualización / modelo (Power BI)]
+    D --> E[Visualización / modelo Power BI]
