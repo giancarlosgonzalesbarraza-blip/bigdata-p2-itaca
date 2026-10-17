@@ -1,0 +1,4 @@
+#datos no admitidos
+.env
+postgres_data/
+SQL/
